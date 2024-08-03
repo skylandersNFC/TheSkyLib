@@ -54,6 +54,7 @@ rmdir /s /q workplace
 copy "%outputfilename%.dump" output\Dump2LockedTag
 timeout /t 4 /nobreak >nul
 del "%outputfilename%.dump" /q
+pause
 exit
 
 :CheckPython
